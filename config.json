@@ -1,7 +1,7 @@
 {
 	"log": {
-		"access": "/var/log/v2ray/access.log",
-		"error": "/var/log/v2ray/error.log",
+		"access": "./access.log",
+		"error": "./error.log",
 		"loglevel": "warning"
 	},
 	"inbounds": [
@@ -28,11 +28,7 @@
 				]
 			}
 		}
-		//include_ss
-		//include_socks
-		//include_mtproto
-		//include_in_config
-		//
+
 	],
 	"outbounds": [
 		{
